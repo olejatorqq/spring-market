@@ -1,14 +1,14 @@
 package com.example.springmarket.models;
 
 public class Product {
-    private int id;
+    private Integer id;
     private String name;
     private String description;
     private int price;
     private String city;
     private String author;
 
-    public Product(int id, String name, String description, int price, String city, String author) {
+    public Product(Integer id, String name, String description, int price, String city, String author) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -17,11 +17,11 @@ public class Product {
         this.author = author;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

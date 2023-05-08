@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class ProductService {
     private List<Product> productList = new ArrayList<>();
-    private static int ID = 0;
+    private int ID = 0;
 
     {
         productList.add(new Product(++ID, "Nokia 3310", "phone", 500, "Moscow", "Ivan Ivanov"));
